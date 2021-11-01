@@ -31,16 +31,16 @@ function PostForm() {
     return (
         <>
             <Form onSubmit={onSubmit}>
-                <h2>Create a post:</h2>
+                <h2>Add a new park:</h2>
                 <Form.Field>
                     <Form.Input
-                        placeholder="New Park"
+                        placeholder="New park..."
                         name="body"
                         onChange={onChange}
                         value={values.body}
                         error={error ? true : false}
                         />
-                    <Button type="submit" color="teal">
+                    <Button type="submit" color="teal" onClick={() => window.location.reload(false)}>
                         Submit
                     </Button>
                 </Form.Field>

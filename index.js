@@ -7,7 +7,7 @@ const typeDefs = require("./schemas/typeDefs");
 const resolvers = require("./schemas/resolvers");
 const { MONGODB } = process.env;
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3001;
 
 const server = new ApolloServer({
     typeDefs,

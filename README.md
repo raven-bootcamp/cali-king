@@ -73,6 +73,11 @@ For this application, I deployed the server using Heroku (see Links section abov
 
 The front-end is deployed using Netlify.  This is as a result of multiple configuration issues I had with Heroku that I am still attempting to resolve.
 
+Several features were within scope originally, but did not make the deadline.  They are:
+- photo uploads
+- rich profile data
+- Google Maps functionality
+
 ## Technologies Used
 - [Atlas: MongoDB cloud](https://www.mongodb.com/cloud/atlas/register) - I used this from the start when building the backend, which allowed me to add to the data over time
 - [Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started/) - this handles GraphQL and also uses Express JS under the hood, therefore meeting the Express requirement of the project
